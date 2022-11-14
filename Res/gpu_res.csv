@@ -1,0 +1,5 @@
+Graph,graph_alexnet_n_pipe,graph_googlenet_n_pipe,graph_mobilenet_n_pipe,graph_squeezenet_n_pipe,graph_resnet50_n_pipe
+Input,0.235749,0.245185,0.232245,0.237368,0.239113
+Task,1.90084,10.6402,3.16103,7.75911,7.72258
+Output,105.728,155.86,97.384,79.8404,480.859
+total,107.865,166.746,100.777,87.8369,488.821

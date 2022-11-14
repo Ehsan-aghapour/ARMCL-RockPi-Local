@@ -1,0 +1,4 @@
+,graph_alexnet_n_pipe_npu,graph_googlenet_n_pipe_npu,graph_mobilenet_n_pipe_npu,graph_squeezenet_n_pipe_npu,graph_resnet50_n_pipe_npu
+B2-S0,138.727,145.414,75.2619,90.4662,378.947
+B2-S4,112.374,118.596,54.9319,80.7156,266.916
+B0-S4,175.144,247.041,133.835,158.075,545.992

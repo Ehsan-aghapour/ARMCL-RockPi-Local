@@ -1,0 +1,815 @@
+examination_graph:graph_alexnet_n_pipe
+
+B2-S0
+
+number of cores:2
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe --threads=2  --threads2=2  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe
+
+hi
+Threads : 0
+Small Cores Threads : 0
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 0
+Second partition point is : 0
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 1 times.
+Layer timing: 0
+
+Threads : 2
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:7
+ set:2 7 8 11 15 16 17 19 
+Total layers:8
+
+
+
+Cost0:142.135
+input0_time:0.00121045
+task0_time:142.126
+output0_time:0.0024111
+total0_time:142.129
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B2-S4
+
+number of cores:6
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe --threads=6  --threads2=6  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe
+
+hi
+Threads : 0
+Small Cores Threads : 0
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 0
+Second partition point is : 0
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 1 times.
+Layer timing: 0
+
+Threads : 6
+Small Cores Threads : 6
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:7
+ set:2 7 8 11 15 16 17 19 
+Total layers:8
+
+
+
+Cost0:113.986
+input0_time:0.00133685
+task0_time:113.976
+output0_time:0.00233812
+total0_time:113.98
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B0-S4
+
+number of cores:4
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe --threads=4  --threads2=4  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=L --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_alexnet_n_pipe
+
+hi
+Threads : 0
+Small Cores Threads : 0
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 0
+Second partition point is : 0
+Order is : B-L-G
+Total number of cores is : 6
+Run network for 1 times.
+Layer timing: 0
+
+Threads : 4
+Small Cores Threads : 4
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : LLLLLLLL
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:7
+ set:2 7 8 11 15 16 17 19 
+Total layers:8
+
+
+
+Cost0:175
+input0_time:0.00162842
+task0_time:174.988
+output0_time:0.00313062
+total0_time:174.993
+***************************************
+
+Frame Latency: 0
+
+Test passed
+examination_graph:graph_googlenet_n_pipe
+
+B2-S0
+
+number of cores:2
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe --threads=2  --threads2=2  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe
+
+Threads : 2
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:12
+ set:2 3 6 14 23 31 39 47 55 64 72 81 83 
+Total layers:13
+
+start running graph 0
+
+
+Cost0:140.599
+input0_time:0.00160905
+task0_time:140.593
+output0_time:0.00243052
+total0_time:140.597
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B2-S4
+
+number of cores:6
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe --threads=6  --threads2=6  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe
+
+Threads : 6
+Small Cores Threads : 6
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:12
+ set:2 3 6 14 23 31 39 47 55 64 72 81 83 
+Total layers:13
+
+start running graph 0
+
+
+Cost0:116.212
+input0_time:0.00157503
+task0_time:116.205
+output0_time:0.00263962
+total0_time:116.209
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B0-S4
+
+number of cores:4
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe --threads=4  --threads2=4  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=L --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_googlenet_n_pipe
+
+Threads : 4
+Small Cores Threads : 4
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : LLLLLLLLLLLLL
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:12
+ set:2 3 6 14 23 31 39 47 55 64 72 81 83 
+Total layers:13
+
+start running graph 0
+
+
+Cost0:242.497
+input0_time:0.00243537
+task0_time:242.488
+output0_time:0.00331522
+total0_time:242.494
+***************************************
+
+Frame Latency: 0
+
+Test passed
+examination_graph:graph_mobilenet_n_pipe
+
+B2-S0
+
+number of cores:2
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe --threads=2  --threads2=2  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe
+
+Threads : 2
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:27
+ set:0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 30 
+Total layers:28
+
+start running graph 0
+
+
+Cost0:73.7818
+input0_time:0.00140492
+task0_time:73.7755
+output0_time:0.00238187
+total0_time:73.7793
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B2-S4
+
+number of cores:6
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe --threads=6  --threads2=6  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe
+
+Threads : 6
+Small Cores Threads : 6
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:27
+ set:0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 30 
+Total layers:28
+
+start running graph 0
+
+
+Cost0:54.1599
+input0_time:0.0015652
+task0_time:54.1534
+output0_time:0.00244998
+total0_time:54.1575
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B0-S4
+
+number of cores:4
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe --threads=4  --threads2=4  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=L --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_mobilenet_n_pipe
+
+Threads : 4
+Small Cores Threads : 4
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : LLLLLLLLLLLLLLLLLLLLLLLLLLLL
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:27
+ set:0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 30 
+Total layers:28
+
+start running graph 0
+
+
+Cost0:133.414
+input0_time:0.00208537
+task0_time:133.406
+output0_time:0.00344163
+total0_time:133.411
+***************************************
+
+Frame Latency: 0
+
+Test passed
+examination_graph:graph_squeezenet_n_pipe
+
+B2-S0
+
+number of cores:2
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe --threads=2  --threads2=2  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe
+
+Threads : 2
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:18
+ set:1 2 5 6 9 10 14 15 18 19 22 23 26 27 31 32 35 37 39 
+Total layers:19
+
+start running graph 0
+
+
+Cost0:98.1004
+input0_time:0.00146318
+task0_time:98.0943
+output0_time:0.00217778
+total0_time:98.0979
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B2-S4
+
+number of cores:6
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe --threads=6  --threads2=6  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe
+
+Threads : 6
+Small Cores Threads : 6
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:18
+ set:1 2 5 6 9 10 14 15 18 19 22 23 26 27 31 32 35 37 39 
+Total layers:19
+
+start running graph 0
+
+
+Cost0:79.5417
+input0_time:0.00137082
+task0_time:79.5354
+output0_time:0.00244033
+total0_time:79.5392
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B0-S4
+
+number of cores:4
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe --threads=4  --threads2=4  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=L --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_squeezenet_n_pipe
+
+Threads : 4
+Small Cores Threads : 4
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : LLLLLLLLLLLLLLLLLLL
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:18
+ set:1 2 5 6 9 10 14 15 18 19 22 23 26 27 31 32 35 37 39 
+Total layers:19
+
+start running graph 0
+
+
+Cost0:155.611
+input0_time:0.0019299
+task0_time:155.603
+output0_time:0.00360702
+total0_time:155.608
+***************************************
+
+Frame Latency: 0
+
+Test passed
+examination_graph:graph_resnet50_n_pipe
+
+B2-S0
+
+number of cores:2
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe --threads=2  --threads2=2  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe
+
+Threads : 2
+Small Cores Threads : 2
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:17
+ set:1 7 12 18 24 29 34 40 46 51 56 61 66 72 78 83 89 92 
+Total layers:18
+
+start running graph 0
+
+
+Cost0:386.309
+input0_time:0.00122495
+task0_time:386.304
+output0_time:0.00231393
+total0_time:386.307
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B2-S4
+
+number of cores:6
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe --threads=6  --threads2=6  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=B --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe
+
+Threads : 6
+Small Cores Threads : 6
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : BBBBBBBBBBBBBBBBBB
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:17
+ set:1 7 12 18 24 29 34 40 46 51 56 61 66 72 78 83 89 92 
+Total layers:18
+
+start running graph 0
+
+
+Cost0:268.868
+input0_time:0.00126397
+task0_time:268.862
+output0_time:0.00256663
+total0_time:268.865
+***************************************
+
+Frame Latency: 0
+
+Test passed
+
+B0-S4
+
+number of cores:4
+
+userspace
+800000000
+1800000
+1416000
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe --threads=4  --threads2=4  --target=NEON    --n=60 --save=0 --annotate=0 --partition_point=100 --partition_point2=100 --order=L --layer_time=0   
+
+/data/data/com.termux/files/home/ARMCL-RockPi//graphs/graph_resnet50_n_pipe
+
+Threads : 4
+Small Cores Threads : 4
+Target : Neon
+Data type : F32
+Data layout : NHWC
+Tuner enabled? : false
+Cache enabled? : false
+Tuner mode : Normal
+Tuner file : 
+MLGO file : 
+Fast math enabled? : false
+Image file : 
+Labels file : 
+Partition point is : 100
+Second partition point is : 100
+Order is : LLLLLLLLLLLLLLLLLL
+Total number of cores is : 6
+Run network for 60 times.
+Layer timing: 0
+
+Start_Layer:0 	 End layer:17
+ set:1 7 12 18 24 29 34 40 46 51 56 61 66 72 78 83 89 92 
+Total layers:18
+
+start running graph 0
+
+
+Cost0:542.769
+input0_time:0.0017937
+task0_time:542.761
+output0_time:0.0032423
+total0_time:542.766
+***************************************
+
+Frame Latency: 0
+
+Test passed
